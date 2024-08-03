@@ -1,0 +1,114 @@
+body{
+    background-color: #e0e0d8;
+}
+
+header{
+    background-color: #e0e0d8;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+    height: 50px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+h1{
+    font-size: 2em;
+    margin: 0;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h3{
+    font-size: 1.17em;
+    margin: 0;
+}
+
+h4{
+    font-size: 1em;
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid red; /* separar secciones */
+    height: 700px;
+}
+
+.welcomeSection{
+
+    background: rgb(224,224,216);
+    background: linear-gradient(180deg, rgba(224,224,216,1) 0%, rgba(147,194,226,1) 100%); 
+
+}
+
+.whyUsSection{
+
+    background: rgb(147,194,226);
+    background: linear-gradient(180deg, rgba(147,194,226,1) 0%, rgba(94,171,222,1) 100%); 
+
+}
+
+.aboutUsSection{
+    background: rgb(94,171,222);
+    background: linear-gradient(180deg, rgba(94,171,222,1) 0%, rgba(74,144,226,1) 100%); 
+}
+
+.ourServicesSection{
+    background: rgb(74,144,226);
+    background: linear-gradient(180deg, rgba(74,144,226,1) 0%, rgba(176,212,255,1) 100%); 
+}
+
+
+.statisticsSection{
+    background: rgb(176,212,255);
+    background: linear-gradient(180deg, rgba(176,212,255,1) 0%, rgba(214,233,255,1) 100%); 
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #2C3E50;
+    height: 150px;
+}
+
+.statistics ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonialsSection{
+    background: rgb(214,233,255);
+    background: linear-gradient(180deg, rgba(214,233,255,1) 0%, rgba(214,233,255,0) 100%); 
+}
+
+/* footer */
+
+footer{
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+    height: 500px;
+}
