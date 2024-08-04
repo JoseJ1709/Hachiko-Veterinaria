@@ -102,13 +102,12 @@ section{
 #welcomeContent{
     z-index: 2;
     display: block;
+    border: 1px solid red;
 }
 #welcomeContent h1{
     color: #2C3E50;
     font-size: 80px;
-    width: 900px;
-    text-align: center;
-    line-height: 1.1;
+    width: 700px;
 }
 #cloud1-content{
     position: absolute;
@@ -118,50 +117,25 @@ section{
 #cloud1-content img{
     width: 600px;
 }
-#clientStatistics{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-#clientStatistics li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px; 
-}
-#clientStatistics li h4{
-    color: #2C3E50;
-    font-size: 30px;
-    font-weight: 600;
-}
-#clientStatistics li p{
-    margin-top: 5px;
-    color: #2C3E50;
-    font-size: 25px;
-    font-weight: 500;
-}
 .whyUsSection{
-    border-top: 1px solid red; /* separar secciones */
+
     background: rgb(147,194,226);
     background: linear-gradient(180deg, rgba(147,194,226,1) 0%, rgba(94,171,222,1) 100%); 
 
 }
 
 .aboutUsSection{
-    border-top: 1px solid red; /* separar secciones */
     background: rgb(94,171,222);
     background: linear-gradient(180deg, rgba(94,171,222,1) 0%, rgba(74,144,226,1) 100%); 
 }
 
 .ourServicesSection{
-    border-top: 1px solid red; /* separar secciones */
     background: rgb(74,144,226);
     background: linear-gradient(180deg, rgba(74,144,226,1) 0%, rgba(176,212,255,1) 100%); 
 }
 
 
 .statisticsSection{
-    border-top: 1px solid red; /* separar secciones */
     background: rgb(176,212,255);
     background: linear-gradient(180deg, rgba(176,212,255,1) 0%, rgba(214,233,255,1) 100%); 
 }
@@ -180,7 +154,6 @@ section{
 }
 
 .testimonialsSection{
-    border-top: 1px solid red; /* separar secciones */
     background: rgb(214,233,255);
     background: linear-gradient(180deg, rgba(214,233,255,1) 0%, rgba(214,233,255,0) 100%); 
 }
