@@ -9,12 +9,10 @@
 #welcomeContent{
     z-index: 2;
     display: block;
-    border: 1px solid red;
 }
 #welcomeContent h1{
     color: #2C3E50;
     font-size: 80px;
-    width: 700px;
 }
 
 #welcomeContent ul{
@@ -38,81 +36,6 @@
     width: 600px;
 }
 
-/* why us section */
-
-
-.whyUsSection{
-    
-    background: rgb(147,194,226);
-    background: linear-gradient(180deg, rgba(147,194,226,1) 0%, rgba(94,171,222,1) 100%); 
-    position: relative;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    
-}
-
-#whyUsContent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    height: 150px;
-    z-index: 1;
-    right: 100px;
-    
-}
-
-#dog-content{
-    position: absolute;
-    right: 40px;
-    z-index: 0;
-    left: 100px;
-
-}
-
-#dog-content img{
-    width: 600px;
-}
-
-
-#medicine-content{
-    position: absolute;
-    right: 40px;
-    top: 20px;
-    z-index: 0;
-
-}
-
-
-#medicine-content img{
-    width: 500px;
-}
-
-.whyUsCardsContainer{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border: 1px solid red;
-    height: 600px;
-    width: 800px;
-
-}
-
-.whyUsCard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    background-color: #4A90E2;
-    opacity: 0.7;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* about us section */
 
 .aboutUsSection{
     background: rgb(94,171,222);
