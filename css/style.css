@@ -88,10 +88,75 @@ ul{
 section{
     margin: 0;
     padding: 0;
-    border-top: 1px solid red; /* separar secciones */
     height: 700px;
 }
 
+.welcomeSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(224,224,216);
+    background: linear-gradient(180deg, rgba(224,224,216,1) 0%, rgba(147,194,226,1) 100%); 
+}
+#welcomeContent{
+    z-index: 2;
+    display: block;
+    border: 1px solid red;
+}
+#welcomeContent h1{
+    color: #2C3E50;
+    font-size: 80px;
+    width: 700px;
+}
+#cloud1-content{
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+}
+#cloud1-content img{
+    width: 600px;
+}
+.whyUsSection{
+
+    background: rgb(147,194,226);
+    background: linear-gradient(180deg, rgba(147,194,226,1) 0%, rgba(94,171,222,1) 100%); 
+
+}
+
+.aboutUsSection{
+    background: rgb(94,171,222);
+    background: linear-gradient(180deg, rgba(94,171,222,1) 0%, rgba(74,144,226,1) 100%); 
+}
+
+.ourServicesSection{
+    background: rgb(74,144,226);
+    background: linear-gradient(180deg, rgba(74,144,226,1) 0%, rgba(176,212,255,1) 100%); 
+}
+
+
+.statisticsSection{
+    background: rgb(176,212,255);
+    background: linear-gradient(180deg, rgba(176,212,255,1) 0%, rgba(214,233,255,1) 100%); 
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #2C3E50;
+    height: 150px;
+}
+
+.statistics ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonialsSection{
+    background: rgb(214,233,255);
+    background: linear-gradient(180deg, rgba(214,233,255,1) 0%, rgba(214,233,255,0) 100%); 
+}
 
 /* footer */
 
