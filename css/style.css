@@ -282,11 +282,36 @@ section{
     width: 600px;
 }
 .ourServicesSection{
-    border-top: 1px solid red; /* separar secciones */
+    border: 1px solid red;
     background: rgb(74,144,226);
     background: linear-gradient(180deg, rgba(74,144,226,1) 0%, rgba(176,212,255,1) 100%); 
 }
+.ourServicesSection h2{
+    margin-top: 45px;
+    color: #2C3E50;
+    font-size: 60px;
+    text-align: center;
+}
 
+#container-servicesCard{
+    display: flex;
+    margin-top: 70px;
+}
+.ourServicesCard{
+    display: flex;
+    flex-direction: column;
+    color: #2C3E50;
+    font-size: 34px;
+    margin-left: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourServicesCard img{
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 600px;
+}
 
 .statisticsSection{
     border-top: 1px solid red; /* separar secciones */
