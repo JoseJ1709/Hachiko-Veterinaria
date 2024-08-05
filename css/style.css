@@ -34,6 +34,7 @@ header nav ul li a{
     font-weight: 500;
 }
 #logo{
+    border: 1px solid red; 
     margin-left: 100px;
     width: 60px;
 }
@@ -213,12 +214,73 @@ section{
     font-size: 20px;
     text-align: center;
 }
+#health-content {
+    position: absolute;
+    z-index: 1;
+    margin-top: 0;
+    right: 0px;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    margin-right: 180px;
+}
+
+#cloud2-content{
+    margin-left: 100px;
+    margin-top: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+#health-content img {
+    width: 100%;
+    transform: scale(0.9);
+    transform-origin: center;
+}
+
+#cloud2-content img{
+    width: 600px;
+}
 .aboutUsSection{
-    border-top: 1px solid red; /* separar secciones */
+    position: relative;
+    display: flex;
     background: rgb(94,171,222);
     background: linear-gradient(180deg, rgba(94,171,222,1) 0%, rgba(74,144,226,1) 100%); 
 }
-
+#aboutUsCardsContainer{
+    width: 100%;
+    z-index: 2;
+}
+#aboutUsCard{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+#aboutUsCard h3{
+    margin-left: 110px;
+    color: #2C3E50;
+    font-size: 50px;
+}
+#aboutUsCard p{
+    text-align: center;
+    font-size: 23px;
+    width: 600px;
+}
+#ourMissionCard{
+    margin-top: 50px;
+    margin-left: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+#ourMissionCard h3{
+    margin-left: 110px;
+    color: #2C3E50;
+    font-size: 50px;
+}
+#ourMissionCard p{
+    text-align: center;
+    font-size: 23px;
+    width: 600px;
+}
 .ourServicesSection{
     border-top: 1px solid red; /* separar secciones */
     background: rgb(74,144,226);
