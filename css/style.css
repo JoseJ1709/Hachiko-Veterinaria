@@ -33,6 +33,14 @@ header nav ul li a{
     color: #2C3E50;
     font-weight: 500;
 }
+#logo-container{
+    display: flex;
+}
+#logo-container h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+}
 #logo{
     margin-left: 100px;
     width: 60px;
