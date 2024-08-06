@@ -200,6 +200,7 @@ section{
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    opacity: 0.7;
 }
 .whyUsCard h3{
     margin-top: 20px;
@@ -246,10 +247,15 @@ section{
     background: rgb(94,171,222);
     background: linear-gradient(180deg, rgba(94,171,222,1) 0%, rgba(74,144,226,1) 100%); 
 }
+
+
 #aboutUsCardsContainer{
     width: 100%;
     z-index: 2;
+    display: flex;
+
 }
+
 #aboutUsCard{
     margin-top: 100px;
     margin-left: 150px;
@@ -259,19 +265,26 @@ section{
     color: #2C3E50;
     font-size: 50px;
 }
+
 #aboutUsCard p{
     text-align: center;
     font-size: 23px;
     width: 600px;
 }
+
+
+
+
 #ourMissionCard{
-    margin-top: 50px;
-    margin-left: 1000px;
+    margin-top: 200px;;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
 }
 #ourMissionCard h3{
-    margin-left: 110px;
     color: #2C3E50;
     font-size: 50px;
 }
@@ -280,11 +293,17 @@ section{
     font-size: 23px;
     width: 600px;
 }
+
+
 .ourServicesSection{
-    overflow: auto;
+    display: flex;
     background: rgb(74,144,226);
     background: linear-gradient(180deg, rgba(74,144,226,1) 0%, rgba(176,212,255,1) 100%); 
+    flex-direction: column;
+    align-items: center;
 }
+
+
 .ourServicesSection h2{
     margin-top: 45px;
     color: #2C3E50;
@@ -295,15 +314,16 @@ section{
 #container-servicesCard{
     display: flex;
     margin-top: 70px;
+    justify-content: space-between;
 }
 .ourServicesCard{
     display: flex;
     flex-direction: column;
     color: #2C3E50;
     font-size: 34px;
-    margin-left: 180px;
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 
 .ourServicesCard img{
@@ -342,6 +362,7 @@ section{
     background-color: #2C3E50;
     height: 250px;
     z-index: 2;
+
 }
 .statisticsSection h2{
     z-index: 2;
@@ -351,6 +372,8 @@ section{
 }
 .statistics ul{
     display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 .statistics ul li{
     font-size: 30px;
@@ -358,21 +381,18 @@ section{
     flex-direction: column;
     align-items: center;
     color: #F5F5F5;
+
 }
 
-#ochenta{
-    margin-left: 160px;
-}
-#noventa{
-    margin-left: 120px;
-}
-#veinte{
-    margin-left: 150px;
-}
+
 
 .statistics ul li h3{
     font-size: 45px;
     color: #FFAFAF;
+}
+
+.statistics ul li p{
+    text-align: center;
 }
 
 .testimonialsSection{
