@@ -34,7 +34,6 @@ header nav ul li a{
     font-weight: 500;
 }
 #logo{
-    border: 1px solid red; 
     margin-left: 100px;
     width: 60px;
 }
@@ -282,7 +281,7 @@ section{
     width: 600px;
 }
 .ourServicesSection{
-    border: 1px solid red;
+    overflow: auto;
     background: rgb(74,144,226);
     background: linear-gradient(180deg, rgba(74,144,226,1) 0%, rgba(176,212,255,1) 100%); 
 }
@@ -312,24 +311,68 @@ section{
     border-radius: 10px;
     width: 600px;
 }
+#cloud3-content {
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 80px;
+}
+#cloud4-content {
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    right: 0px;
+    height: auto;
+    overflow: hidden;
+    margin-right: 90px;
+}
 
 .statisticsSection{
-    border-top: 1px solid red; /* separar secciones */
+    position: relative;
+    display: flex;
     background: rgb(176,212,255);
     background: linear-gradient(180deg, rgba(176,212,255,1) 0%, rgba(214,233,255,1) 100%); 
 }
 
 .statistics{
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
     background-color: #2C3E50;
-    height: 150px;
+    height: 250px;
+    z-index: 2;
 }
-
+.statisticsSection h2{
+    z-index: 2;
+    color: #2C3E50;
+    font-size: 80px;
+    margin-left: 100px;
+}
 .statistics ul{
     display: flex;
-    justify-content: space-between;
+}
+.statistics ul li{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F5F5F5;
+}
+
+#ochenta{
+    margin-left: 160px;
+}
+#noventa{
+    margin-left: 120px;
+}
+#veinte{
+    margin-left: 150px;
+}
+
+.statistics ul li h3{
+    font-size: 45px;
+    color: #FFAFAF;
 }
 
 .testimonialsSection{
