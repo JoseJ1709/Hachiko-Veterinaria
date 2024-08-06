@@ -15,6 +15,9 @@ header nav{
     display: flex;
     justify-content: space-between;
 }
+#menu{
+    margin-right: 280px;
+}
 header nav ul{
     display: flex;
     justify-content: space-between;
@@ -355,7 +358,7 @@ a{
 #cloud3-content {
     position: absolute;
     z-index: 1;
-    margin-top: 100px;
+    margin-top:  10px;
     height: auto;
     overflow: hidden;
     margin-left: 80px;
@@ -363,7 +366,7 @@ a{
 #cloud4-content {
     position: absolute;
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 10px;
     right: 0px;
     height: auto;
     overflow: hidden;
@@ -396,10 +399,10 @@ a{
     width: 100%;
 }
 #ochenta{
-    margin-left: 160px;
+    margin-left: 150px;
 }
 #noventa{
-    margin-left: 130px;
+    margin-left: 140px;
 }
 #veinte{
     margin-left: 150px;
