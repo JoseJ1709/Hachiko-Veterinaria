@@ -33,6 +33,14 @@ header nav ul li a{
     color: #2C3E50;
     font-weight: 500;
 }
+#logo-container{
+    display: flex;
+}
+#logo-container h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+}
 #logo{
     margin-left: 100px;
     width: 60px;
@@ -287,12 +295,13 @@ a{
 
 
 #ourMissionCard{
-    margin-top: 200px;;
+    margin-top: 250px;;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 600px;
+    margin-left: 270px;
 
 }
 #ourMissionCard h3{
@@ -379,14 +388,22 @@ a{
 }
 .statisticsSection h2{
     z-index: 2;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .statistics ul{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    
+}
+#ochenta{
+    margin-left: 160px;
+}
+#noventa{
+    margin-left: 130px;
+}
+#veinte{
+    margin-left: 150px;
+
 }
 .statistics ul li{
     font-size: 30px;
@@ -394,7 +411,6 @@ a{
     flex-direction: column;
     align-items: center;
     color: #F5F5F5;
-
 }
 
 
