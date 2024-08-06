@@ -31,10 +31,7 @@ Este repositorio contiene el código fuente de la landing page para la presentac
       <img src="https://github.com/Intro-CompuMovil/JaveWheels/assets/107308404/6a07817b-70ac-42b7-9f43-2470070f8b10" width="300">
     </td>
     <td align="center">
-      <img src="https://github.com/JoseJ1709/MonitoreoSensores/assets/107308404/3dc3cdc9-4128-4e7e-8eb5-52f681db3a06" width="220" height="360">
+      <img src="https://github.com/user-attachments/assets/c12e1c53-da4f-4aa6-a91a-b2b466a37efe" width="300" height="400">
     </td>
   </tr>
 </table>
-
-    </td>
-  </tr>
