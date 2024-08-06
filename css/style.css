@@ -502,13 +502,17 @@ footer{
     padding: 50px;
     margin: 0;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
 
 footer h2{
     color: #F5F5F5;
     font-size: 40px;
-    text-align: left;
+
 }
 
 footer button {
@@ -526,18 +530,17 @@ footer ul{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 50px;
+    width: 100%;
 }
 
 footer ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    margin-right: 100px;
-
     font-size: 24px;
 }
 
 footer a{
     color: #F5F5F5;
+    margin-top: 50px;
 }
