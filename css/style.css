@@ -15,6 +15,9 @@ header nav{
     display: flex;
     justify-content: space-between;
 }
+#menu{
+    margin-right: 280px;
+}
 header nav ul{
     display: flex;
     justify-content: space-between;
