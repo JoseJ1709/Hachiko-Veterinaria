@@ -286,12 +286,13 @@ a{
 
 
 #ourMissionCard{
-    margin-top: 200px;;
+    margin-top: 250px;;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 600px;
+    margin-left: 270px;
 
 }
 #ourMissionCard h3{
